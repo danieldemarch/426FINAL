@@ -1,9 +1,5 @@
-To start the project
+To access the project go to
 
-cd into web-start
+https://final-3779d.firebaseapp.com/
 
-Run firebase serve --only hosting --project final-3779d
-
-You must be signed in as a member of the project in firebase
-
-To do this, please message daniel.th.demarchi@gmail.com
+If you have any issues, please message daniel.th.demarchi@gmail.com
