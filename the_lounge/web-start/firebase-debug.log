@@ -1,0 +1,22 @@
+[debug] [2019-12-12T17:37:18.611Z] ----------------------------------------------------------------------
+[debug] [2019-12-12T17:37:18.613Z] Command:       /usr/local/bin/node /Users/danieldemarchi/.npm-global/bin/firebase serve --only hosting
+[debug] [2019-12-12T17:37:18.613Z] CLI Version:   7.8.1
+[debug] [2019-12-12T17:37:18.613Z] Platform:      darwin
+[debug] [2019-12-12T17:37:18.613Z] Node Version:  v12.13.1
+[debug] [2019-12-12T17:37:18.614Z] Time:          Thu Dec 12 2019 12:37:18 GMT-0500 (Eastern Standard Time)
+[debug] [2019-12-12T17:37:18.614Z] ----------------------------------------------------------------------
+[debug] [2019-12-12T17:37:18.614Z] 
+[debug] [2019-12-12T17:37:18.623Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-12T17:37:18.624Z] > authorizing via signed-in user
+[debug] [2019-12-12T17:37:18.624Z] [iam] checking project final-3779d for permissions ["firebase.projects.get"]
+[debug] [2019-12-12T17:37:18.625Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/final-3779d:testIamPermissions  
+
+[debug] [2019-12-12T17:37:18.845Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-12T17:37:18.847Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/final-3779d  
+ 
+[debug] [2019-12-12T17:37:19.059Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-12T17:37:19.061Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/final-3779d/webApps/-/config  
+ 
+[debug] [2019-12-12T17:37:19.433Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] ✔  hosting: Local server: http://localhost:5000
